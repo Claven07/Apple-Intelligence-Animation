@@ -47,8 +47,10 @@ class _GlowEffectState extends State<GlowEffect> with TickerProviderStateMixin {
 
   List<GradientStop> _generateGradientStops() {
     final random = Random();
+
     // Each color gets a random location, then we sort by location.
     // This ensures colors shuffle their order around the circle.
+
     final stops = List.generate(6, (index) {
       return GradientStop(colors[index], random.nextDouble());
     });
@@ -143,6 +145,7 @@ class EffectLayer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
     // We use TweenAnimationBuilder to animate the gradient properties if possible.
     // However, SweepGradient takes a list of colors and stops.
     // Animating the list of stops is what we want.
@@ -222,7 +225,7 @@ class GlowPainter extends CustomPainter {
       endAngle: pi * 2,
       colors: stops.map((s) => s.color).toList(),
       stops: stops.map((s) => s.location).toList(), // Stops need to be sorted 0..1
-      // Swift code sorts them. Our logic ensures locations are sorted.
+      // Swift code sorts them. this logic ensures locations are sorted.
       // But SweepGradient requires strictly increasing stops? Usually yes.
     );
 
