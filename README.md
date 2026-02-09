@@ -84,7 +84,7 @@ void main() {
 
 ## 🤝 Contributing
 
-Feel free to open issues or submit PRs if you find optimizations or want to add more configuration options (like custom colors or speed controls).
+Feel free to open issues or submit PRs if you find optimizations or want to add more configuration options (like custom colors or speed controls). Read the Contribution.md file for more information.
 
 ## 📄 License
 
