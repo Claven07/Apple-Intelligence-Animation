@@ -1,0 +1,29 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+
+# Node / JS / Web
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+*.env
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+.pub-cache/
+.pub/
+
+# React Native / Native specific
+android/app/build/
+ios/Pods/
+.expo/
+web-build/
+
+# VS Code settings
+.vscode/
+*.code-workspace
