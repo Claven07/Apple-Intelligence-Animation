@@ -1,6 +1,6 @@
 # Apple Intelligence Animation
 
-A beautiful, glowing animation component inspired by Apple Intelligence. Available for **Web**, **React Native**, and **Flutter**.
+A beautiful, glowing animation component inspired by Apple Intelligence. Available for **Web**, **React Native**, **Flutter**, and **iOS (SwiftUI)**.
 
 ---
 
@@ -75,11 +75,35 @@ void main() {
 
 ---
 
-## � Project Structure
+## 🍎 iOS (SwiftUI)
+
+### 1. Setup
+Copy the `iOS.swift` file from the `iOS/` folder into your project.
+
+### 2. Usage
+Simply use the `GlowEffect` view within your SwiftUI hierarchy.
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        ZStack {
+            Color.black.ignoresSafeArea()
+            GlowEffect()
+        }
+    }
+}
+```
+
+---
+
+## 📂 Project Structure
 
 - **`/web`**: React + Vite project.
 - **`/native`**: React Native implementation.
 - **`/flutter`**: Flutter implementation.
+- **`/iOS`**: Native iOS implementation in SwiftUI.
 
 
 ## 🤝 Contributing
@@ -91,4 +115,3 @@ Feel free to open issues or submit PRs if you find optimizations or want to add 
 This project is open source. Feel free to use it in your own applications.
 
 
-Dropping code soon in swift for ios developers
