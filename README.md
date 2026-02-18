@@ -2,6 +2,7 @@
 
 A beautiful, glowing animation component inspired by Apple Intelligence. Available for **Web**, **React Native**, **Flutter**, and **iOS (SwiftUI)**.
 
+
 ---
 
 ## 🌐 Web (React)
@@ -110,8 +111,14 @@ struct ContentView: View {
 
 Feel free to open issues or submit PRs if you find optimizations or want to add more configuration options (like custom colors or speed controls). Read the Contribution.md file for more information.
 
+## ⚖️ Legal Disclaimer
+
+This project is an independent creation and is **not affiliated with, endorsed by, or associated with Apple Inc.** in any way. "Apple Intelligence" is a trademark of Apple Inc. This project is for educational and demonstrative purposes only, showcasing how to recreate similar animation effects across different platforms.
+
 ## 📄 License
 
-This project is open source. Feel free to use it in your own applications.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+⭐️ If this project helped you, please consider giving it a star!
 
 
